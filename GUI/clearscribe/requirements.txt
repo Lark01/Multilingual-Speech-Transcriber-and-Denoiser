@@ -1,0 +1,6 @@
+torch
+transformers
+peft
+sounddevice
+numpy
+PyQt6

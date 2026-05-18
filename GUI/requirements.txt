@@ -1,0 +1,15 @@
+# PyTorch from plain "pip install torch" is often CPU-only on Windows.
+# For NVIDIA GPU inference, reinstall with a CUDA wheel from https://pytorch.org/get-started/locally/ e.g.:
+#   pip uninstall -y torch torchaudio
+#   pip install torch torchaudio --index-url https://download.pytorch.org/whl/cu126
+torch
+torchaudio
+imageio-ffmpeg
+soundfile
+sounddevice
+numpy
+PyQt6
+psutil
+scipy
+transformers
+peft

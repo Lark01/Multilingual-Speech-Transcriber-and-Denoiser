@@ -1,0 +1,21 @@
+{
+  "weights_path": "D:\\WORKSHOP\\ALL\\ann-project\\weights\\denoiser_epoch_15.pt",
+  "denoise_active": false,
+  "input_device_index": 1,
+  "output_device_index": 5,
+  "strength": 1.0,
+  "inference_device": "cuda",
+  "window_x": 2715,
+  "window_y": 118,
+  "start_minimized": false,
+  "launch_on_startup": false,
+  "hide_vbcable_warning": false,
+  "whisper_weights_path": "D:\\WORKSHOP\\ALL\\ann-project\\whisper-lora-weights",
+  "transcribe_active": true,
+  "transcription_language": null,
+  "transcription_segment_sec": 8.0,
+  "transcription_hop_sec": 1.0,
+  "transcribe_denoised_audio": true,
+  "file_transcribe_denoise_first": true,
+  "transcription_inference_device": "cuda"
+}
