@@ -195,6 +195,15 @@ Trained in [`Audio Transcription.ipynb`](Notebooks/Transcriptor/Audio%20Transcri
 
 **Adapter files:** `adapter_config.json`, `adapter_model.safetensors` (or `.bin`) under `GUI/whisper-lora-weights/`.
 
+### Model Evaluation Results
+Using Word Error Rate and Character Error Rate, where a lower number for both is better, we measured the efficacy of our model compared to the un-tuned Whisper model, as well as the base Whisper model to justify the use of Whisper Large V3 Turbo as the foundation of our project.
+
+| Model                  | WER | CER |
+| ---------------------- | ----------------------- | ----------------------- |
+| Tuned Whisper Model    | 0.4879                  | 0.2458                  |
+| Whisper Large V3 Turbo | 0.6895                  | 0.4212                  |
+| Whisper Base           | 0.9113                  | 0.5667                  |
+
 ---
 
 ## Training pipelines (notebooks)
